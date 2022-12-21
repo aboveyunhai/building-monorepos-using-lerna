@@ -21,5 +21,4 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
-          folder: storybook-static # output folder from `npm run build-storybook`
-          working-directory: ./packages/components
+          folder: ./packages/components/storybook-static # output folder from `npm run build-storybook`

@@ -1,4 +1,4 @@
-name: Build and Deploy Natural UI Storybook
+name: Build and Deploy Example
 on: 
   push:
     branches:
